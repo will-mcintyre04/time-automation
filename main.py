@@ -2,7 +2,7 @@
 Time Study Main GUI
 
 Author: Will McIntyre
-Date: 2023-06-26
+Date: 2023-07-05
 
 Description:
 This script provides a graphical user interface (GUI) for automating the Metalumen time

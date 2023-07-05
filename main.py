@@ -25,7 +25,6 @@ Optionally, click the question mark button at the bottom of the window to open t
 import tkinter as tk
 from tkinter import messagebox
 import subprocess
-import os
 from PIL import Image, ImageTk
 from database_update import DatabaseUpdater
 from make_new_timestudy import TimeStudyCreator

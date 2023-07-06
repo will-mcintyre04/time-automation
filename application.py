@@ -55,7 +55,7 @@ class MainApplication:
 
     def create_widgets(self):
         """ 
-        Creates the main GUI page with widgets.
+        Populates the main GUI page with widgets.
         """
         main_title = tk.Label(self.root, text="Time Study Tools", font=("Arial", 16, "bold"))
         main_title.pack()

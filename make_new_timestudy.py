@@ -107,6 +107,10 @@ class TimeStudyCreator:
         self.window.destroy()
 
     def main(self):
+        """ 
+        Populates a GUI for user input to make a new timestudy spreadsheet and folder 
+         """
+
         # Create the main (root) window and set up attributes
         self.window = tk.Tk()
         self.window.geometry("400x250+760+400")  # 400 x 250 pixels, 760 pixels across and 400 down

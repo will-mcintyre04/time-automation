@@ -115,10 +115,15 @@ class DatabaseUpdater:
             self.db_entry.insert(tk.END, file_path)
     
     def destroy_window(self):
-        """ Exits the current window. """
+        """
+        Exits the current window.
+        """
         self.window.destroy()
     
     def main(self):
+        """ 
+        Populates a data updating GUI window for user input. 
+        """
         self.window = tk.Tk()
         self.window.title("Excel to Database Upload")
         self.window.geometry("400x250+760+400")

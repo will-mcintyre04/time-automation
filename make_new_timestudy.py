@@ -37,7 +37,7 @@ class TimeStudyCreator:
         self.entry = None
         self.destination_entry = None
         # Dynamic location of the time tracking template based on references folder
-        self.default_time_temp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "references\Time Tracking Template v3.xlsm")
+        self.default_time_temp = "references\Time Tracking Template v3.xlsm"
 
     def create_folder_and_copy_spreadsheet(self):
         """
@@ -87,6 +87,8 @@ class TimeStudyCreator:
 
         # Close the main window
         self.window.destroy()
+
+        return destination_file_path
 
     def create_and_open_spreadsheet(self):
         file_path = self.create_folder_and_copy_spreadsheet()

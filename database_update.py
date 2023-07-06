@@ -17,7 +17,8 @@ Click the "Update Database" button to start the update process.
 The script will validate the file format and the spreadsheet structure.
 If the validation is successful, the data will be inserted or updated in the database.
 
-Note: The default database path and other constants used in this script are specific to the author's directory structure and can be modified according to your own requirements.
+Note: The default database path and other constants used in this script are specific to the author's directory
+structure and can be modified according to your own requirements.
 """
 
 import tkinter as tk

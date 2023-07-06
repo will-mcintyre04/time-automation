@@ -31,13 +31,13 @@ class EmptyInputError(Exception):
 
 class TimeStudyCreator:
     DEFAULT_FOLDER_DEST = "J:/6.0 - Designer Folders/Will/Time Study Forms/New Time Studies"
-    DEFAULT_TIME_TEMPLATE = "J:/6.0 - Designer Folders/Will/Time Study Forms/Time Tracking Template v3.xlsm"
 
     def __init__(self):
         self.window = None
         self.entry = None
         self.destination_entry = None
-
+        # Dynamic location of the time tracking template based on references folder
+        self.default_time_temp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "references\Time Tracking Template v3.xlsm")
 
     def create_folder_and_copy_spreadsheet(self):
         """
@@ -51,7 +51,7 @@ class TimeStudyCreator:
         file_name_with_date = f"{file_name} {formatted_date}"
 
         # Source file path and destination folder path input or default
-        source_file_path = self.DEFAULT_TIME_TEMPLATE
+        source_file_path = self.default_time_temp
         destination_folder_path = self.destination_entry.get() or self.DEFAULT_FOLDER_DEST
 
         folder_path = os.path.join(destination_folder_path, file_name_with_date)
@@ -87,7 +87,6 @@ class TimeStudyCreator:
 
         # Close the main window
         self.window.destroy()
-        return destination_file_path
 
     def create_and_open_spreadsheet(self):
         file_path = self.create_folder_and_copy_spreadsheet()

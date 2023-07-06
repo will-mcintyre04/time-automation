@@ -57,6 +57,11 @@ class MainApplication:
         """ 
         Populates the main GUI page with widgets.
         """
+        icon = Image.open("images/open-book.png")
+        resized_icon = icon.resize((32, 32))
+        tk_icon = ImageTk.PhotoImage(resized_icon)
+        self.root.iconphoto(True, tk_icon)
+
         main_title = tk.Label(self.root, text="Time Study Tools", font=("Arial", 16, "bold"))
         main_title.pack()
         sub_title = tk.Label(self.root, text = "Automate the Metalumen time study process. Click below to create a new spreadsheet or update a valid database with a spreadsheet.",
@@ -80,6 +85,6 @@ class MainApplication:
         question_button.pack(side=tk.BOTTOM, pady=10)
     def start (self):
         """ 
-        Starts the main application. 
+        Generates the GUI for the main application.
         """
         self.root.mainloop()

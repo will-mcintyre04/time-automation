@@ -27,6 +27,7 @@ import subprocess
 from PIL import Image, ImageTk
 from database_update import DatabaseUpdater
 from make_new_timestudy import TimeStudyCreator
+import webbrowser
 
 class MainApplication:
     def __init__(self):
@@ -51,7 +52,7 @@ class MainApplication:
         updater.main()
 
     def open_documentation(self):
-        subprocess.Popen(["J:\\6.0 - Designer Folders\Will\Analysis\COBOT Research.docx"], shell=True)
+        webbrowser.open('https://github.com/will-mcintyre04/time-automation/wiki')
 
     def create_widgets(self):
         """ 

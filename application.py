@@ -23,7 +23,6 @@ Optionally, click the question mark button at the bottom of the window to open t
 """
 
 import tkinter as tk
-import subprocess
 from PIL import Image, ImageTk
 from database_update import DatabaseUpdater
 from make_new_timestudy import TimeStudyCreator

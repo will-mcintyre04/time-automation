@@ -38,4 +38,4 @@ Note: Please see the [wiki](https://github.com/will-mcintyre04/time-automation/w
 - `openpyxl`: Used to load and manipulate Excel spreadsheets.
 ## Support
 
-For any issues or inquiries, please contact Will McIntyre at WMcIntyre@metalumen.com.
+For any issues or inquiries, please contact Will McIntyre at william.d.j.mcintyre@gmail.com.

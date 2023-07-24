@@ -22,7 +22,7 @@ Note: Please see the [wiki](https://github.com/will-mcintyre04/time-automation/w
 2. Export all of the folders onto the local disc.
 3. Run the application through the "main.exe" executable. Note: Keep this application within the original folder, or in a new one along with the `build` `images` and `references` folders.
 
-## BTools:
+## Tools:
 
 * <img alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> Python
 * <img alt="vsc" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"/> VSC

@@ -9,7 +9,28 @@
 
 This script provides a graphical user interface (GUI) for automating the Metalumen time study process. It allows the user to perform two main actions:
 
-1. Creating a new time tracking template folder in a specified directory along with a spreadsheet (see `references/Time Tracking Template v3`) and `Videos` folder.
+1. Creating a new time tracking template folder in a specified directory along with an automated time-tracking spreadsheet (see `references/Time Tracking Template v3`) and `Videos` folder. See an example directory tree below:
+```
+|-- RM2DU-4ft 2023-07-24
+|   |-- RM2DU-4ft 2023-07-24.xlsm
+|   `-- Videos
+|       `-- IMG_0966.mp4
+|-- RM4D-11ft 2023-07-24
+|   |-- RM4D-11ft 2023-07-24.xlsm
+|   `-- Videos
+|-- RM4DOD-6ft 2023-07-24
+|   |-- RM4DOD-6ft 2023-07-24.xlsm
+|   `-- Videos
+|       `-- IMG_1091.mp4
+|-- RML-11ft 2023-07-24
+|   |-- RML-11ft 2023-07-24.xlsm
+|   `-- Videos
+|       `-- IMG_1099.mp4
+`-- S6W-5ft 2023-07-24
+    |-- S6W-5ft 2023-07-24.xlsm
+    `-- Videos
+        `-- IMG_1103.mp4
+```
 2. Updating a specified time-tracking database with a valid spreadsheet.
 
 Note: Please see the [wiki](https://github.com/will-mcintyre04/time-automation/wiki) for more in-depth instruction.

@@ -57,6 +57,7 @@ Note: Please see the [wiki](https://github.com/will-mcintyre04/time-automation/w
 - `PIL` (Python Imaging Library): Adds Tkinter GUI support for opening and manipulating image file formats.
 - `sqlite`: Used to connect to the SQLite database.
 - `openpyxl`: Used to load and manipulate Excel spreadsheets.
+- `webbrowser`: Provides a high-level interface to display web-based documents to users.
 ## Support
 
 For any issues or inquiries, please contact Will McIntyre at william.d.j.mcintyre@gmail.com.

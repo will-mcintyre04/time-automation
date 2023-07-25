@@ -54,7 +54,7 @@ Note: Please see the [wiki](https://github.com/will-mcintyre04/time-automation/w
 - `tkinter`: Used to create the graphical user interface (GUI).
 - `subprocess`: Used to call external scripts.
 - `os`: Used for file and directory operations.
-- `PIL` (Python Imaging Library): Used to display the question mark button image in the GUI.
+- `PIL` (Python Imaging Library): Adds support for opening and manipulating image file formats
 - `sqlite`: Used to connect to the SQLite database.
 - `openpyxl`: Used to load and manipulate Excel spreadsheets.
 ## Support

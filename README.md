@@ -39,9 +39,9 @@ Note: Please see the [wiki](https://github.com/will-mcintyre04/time-automation/w
 
 ## How to Use
 
-1. Download the "Time Study Spreadsheet and Database Automation.zip" [`here`](https://drive.google.com/file/d/1ryz9c-6N8hgT8R8zdiBeNg5aCCKWsj1G/view?usp=sharing). Note: Windows might prompt to trust the download before accesing it.
+1. Download the "Time Study Spreadsheet and Database Automation.zip" [`here`](https://drive.google.com/file/d/1Fy28Ba5x0wQScx8R9H29Ba8LpitO5GhB/view?usp=sharing). Note: Windows might prompt to trust the download before accesing it.
 2. Export all of the folders onto the local disc.
-3. Run the application through the "main.exe" executable. Note: Keep this application within the original folder, or in a new one along with the `build` `images` and `references` folders.
+3. Run the application through the "main.exe" executable. Note: Keep this application within the original folder, or in a new one along with the `images` and `references` folders.
 
 ## Tools:
 
